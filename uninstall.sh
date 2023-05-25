@@ -73,7 +73,7 @@ case "${un}" in
     ostype=macos
     if [[ "$(uname -m)" == "arm64" ]]
     then
-      homebrew_prefix_default=/opt/homebrew
+      homebrew_prefix_default=/Users/gemera/homebrew
     else
       homebrew_prefix_default=/usr/local
     fi
